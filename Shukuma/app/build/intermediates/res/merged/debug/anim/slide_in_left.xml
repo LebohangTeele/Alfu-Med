@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 从左滑出的效果设置，其中propertyName表示沿那个维度发生，duration表示动画产生的时间 -->
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:interpolator="@android:interpolator/accelerate_decelerate"
+    android:valueFrom="-1280"
+    android:valueTo="0"
+    android:valueType="floatType"
+    android:propertyName="x"
+    android:duration="1500"/>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Shukuma</string>
+    <string name="hello_world">Hello world!</string>
+     <string name="app_version">V4.0.3</string>
+    <string name="action_settings">Settings</string>
+    
+   <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+    <string name="message_empty_layout_changes">Add an barcode above to get started.</string>
+    <string name="message_empty_unconnect">Click on the Connect button to get started.</string>
+    
+     <string name="action_add_item">Add Product Barcode</string>
+     <string name="action_search_progress_item">Search Progress</string>
+     <string name="action_search_item">Search Bluetooth Device</string>
+    <string name="action_remove_item">Remove item</string>
+    <string name="preferenceScreen_title">Set scanning conditions</string>
+    <string name="listPreference_title">Broadcast Type</string>
+    <string name="listPreference_dialogTitle">Choose Broadcast Type</string>
+    <string name="multiSelectListPreference_title">Device Type</string>
+    <string name="multiSelectListPreference_dialogTitle">Choose Device Type</string>
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Device User</item>
+        <item >Scan Filter</item>
+        <item >Alarm Clock</item>
+        <item >Scan Barcode</item>
+        <item >Search Device</item>
+        <item >Measured Device</item>
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_user_info</item>
+        <item>@drawable/ic_scan_filter</item>
+        <item>@drawable/ic_alarm_clock</item>
+        <item>@drawable/lifesense_device_qr_icon</item>
+        <item>@drawable/lifesense_device_bluetooth</item>
+        <item>@drawable/ic_device_list</item>
+    </array>
+    
+    <string name="scanner_title">Select device:</string>
+    <string name="scanner_empty">No device found</string>
+    <string name="scanner_action_scan">Scan</string>
+    <string name="scanner_action_cancel">Stop Search</string>
+     <string name="not_available">n/a</string>
+     <string name="not_available_value">" - "</string>
+     <string name="scanner_subtitle_bonded">Pairing Mode:</string>
+    <string name="scanner_subtitle__not_bonded">Normal Mode:</string>
+    <string name="ptr_pull_to_refresh">Pull to refresh</string>
+    <string name="ptr_release_to_refresh">Release to refresh</string>
+    <string name="ptr_refreshing">Refreshing…</string>
+    <string name="ptr_last_updated">Updated: %1$s</string>
+    
+	<string name="action_connect">Connect</string>
+	<string name="action_clear_item">Clear</string>
+	<string name="switch_text_start">start</string>
+	<string name="switch_text_stop">stop</string>
+	<string name="action_save_alarm_clock_item">Save Alarm Clock</string>
+	<string name="action_save_user_info_item">Save User Info</string>
+	<string name="action_add_device_item">Add Device</string>
+	<string name="message_no_measured_device">There is no measuring device</string>
+	<string name="action_set_scan_filter_item">Set Scan Filter</string>
+	<string name="message_default_search">No scan filter,scan all device\'s all broadcast</string>
+	
+	<!-- Dialog delete prompt message -->
+	<string name="message_delete_prompt">Do you really want to delete it?</string>
+	<string name="message_no_measured_data">There is no measurement data</string>
+	
+	<string name="action_show_version_item">Current Version</string>
+</resources>

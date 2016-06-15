@@ -1,0 +1,31 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.lifesense.ble.ui"
+        minSdkVersion 14
+        targetSdkVersion 19
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_7
+            targetCompatibility JavaVersion.VERSION_1_7
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:19.1.0'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile files('libs/com.google.zxing.jar')
+    compile files('libs/lifesense_ble_v4.0.3.jar')
+    compile 'com.google.android.gms:play-services-appindexing:8.1.0'
+}

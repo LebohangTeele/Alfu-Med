@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\color\\common_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\color\\common_signin_btn_text_light.xml"
+    }
+]

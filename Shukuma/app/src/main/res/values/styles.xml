@@ -1,0 +1,81 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <!-- Application theme. -->
+   <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+   
+   <style name="LE_THEME" parent=""></style>
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style  name="EditTextStyle">
+        <item name="android:layout_width">72dp</item>
+        <item name="android:layout_height">72dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:animateOnClick">true</item>
+        <item name="android:background">@drawable/rectangle</item>
+        
+    </style>
+    
+    <!-- 定义一种通用的为控件添加外部的方形边框style -->
+    <style  name="RelativeLayoutStyle">
+        <item name="android:layout_width">72dp</item>
+        <item name="android:layout_height">72dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:animateOnClick">true</item>
+        <item name="android:background">@drawable/rectangle</item>
+        
+    </style>
+    
+    <style  name="TextViewRelativeLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:animateOnClick">true</item>
+        <item name="android:background">@drawable/rectangle</item>
+    </style>
+    
+    <style name="GenericProgressBackground" parent="android:Theme">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">#DD111111</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+     <style name="StartMeasureProgressBackground" parent="android:Theme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#DD111111</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <!-- parent="@android:style/Widget.Holo.Light.ProgressBar.Large" -->
+    <style name="GenericProgressIndicator" 
+       parent="@android:attr/progressBarStyleLargeInverse" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:indeterminate">true</item>
+    </style>
+
+   <style name="TextAppearence.App.TextInputLayout" parent="@android:style/TextAppearance">
+       <item name="android:textColor">@color/counter_text_color</item>
+   </style>
+   
+<style name="Widget" />
+     <style name="Widget.ScannerSubtitle">
+        <item name="android:textColor">@color/headerBackgroundColor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

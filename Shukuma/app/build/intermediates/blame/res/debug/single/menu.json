@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_fragment_alarm_clock.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\menu\\menu_fragment_alarm_clock.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_fragment_connect_device.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\menu\\menu_fragment_connect_device.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_fragment_user_info.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\menu\\menu_fragment_user_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_fragment_search_device.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\menu\\menu_fragment_search_device.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_fragment_paired_device_list.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\menu\\menu_fragment_paired_device_list.xml"
+    }
+]

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+     <item 
+         android:id="@+id/action_save_alarm_clock_item"
+        android:title="@string/action_save_alarm_clock_item"
+        android:icon="@android:drawable/ic_menu_save"
+        android:showAsAction="ifRoom" />
+     
+</menu>

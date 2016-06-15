@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_overall_style_background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/user_info_view_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/edit_user_info_layout"
+            android:background="@drawable/layout_view_selector"
+              android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/user_portrait_image_view"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:padding="5dp"
+                android:src="@drawable/ic_user_info_header" />
+
+            <TextView
+                android:id="@+id/user_name_title_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/user_portrait_image_view"
+                android:text="sky@163.com"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/user_gender_title_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_name_title_text_view"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@id/user_portrait_image_view"
+                android:text="Male"
+                android:textSize="12dp"
+                android:textStyle="normal" />
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/user_portrait_image_view"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="2dp"
+                android:background="#FF8000" />
+
+            <Button
+                android:id="@+id/edit_user_info_button"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignRight="@+id/view1"
+                android:layout_centerVertical="true"
+                android:background="@android:drawable/ic_menu_edit" />
+        </RelativeLayout>
+
+        <!-- fat scale setting layout -->
+
+        <LinearLayout
+            android:id="@+id/fat_scale_setting_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/fat_scale_setting_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="Fat Scale Setting"
+                android:textSize="10dp" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/fat_scale_setting_title"
+                android:background="@color/underscore_view_background" />
+
+            <RelativeLayout
+                android:id="@+id/weight_unit_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:background="@drawable/layout_view_selector"
+                android:layout_marginTop="5dp"
+                 >
+
+                <TextView
+                    android:id="@+id/weight_unit_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="5dp"
+                    android:text="Weight Unit"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/weight_unit_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="5dp"
+                    android:drawableRight="@drawable/button_direction_right"
+                    android:gravity="center"
+                    android:text="kg" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DADADC" />
+            <!-- weight target layout session -->
+
+            <RelativeLayout
+                android:id="@+id/weight_target_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:background="@drawable/layout_view_selector"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/weight_target_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="5dp"
+                    android:text="Weight Target"
+                    android:textSize="14dp" />
+                
+                <TextView 
+                   android:id="@+id/kg_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:drawableRight="@drawable/button_direction_right"
+                     android:text="kg"
+                    />
+
+                <TextView
+                    android:id="@+id/weight_target_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/kg_text_view"
+                    android:layout_marginRight="6dp"
+                    android:gravity="center"
+                    android:text="125" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!-- pedometer setting layout -->
+
+        <LinearLayout
+            android:id="@+id/pedometer_setting_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/pedometer_setting_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="Pedometer Setting"
+                android:textSize="10dp" />
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/underscore_view_background" />
+
+            <!-- pedometer distance unit session -->
+
+            <RelativeLayout
+                android:id="@+id/distance_unit_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:background="@drawable/layout_view_selector"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:id="@+id/distance_unit_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="5dp"
+                    android:text="Distance Unit"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/distance_unit_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="5dp"
+                    android:drawableRight="@drawable/button_direction_right"
+                    android:gravity="center"
+                    android:text="Mile" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DADADC" />
+
+            <!-- hour fomrat layout session -->
+
+            <RelativeLayout
+                android:id="@+id/hour_format_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:background="@drawable/layout_view_selector"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:id="@+id/hour_format_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="5dp"
+                    android:text="Hour Format"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/hour_format_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="5dp"
+                    android:drawableRight="@drawable/button_direction_right"
+                    android:gravity="center"
+                    android:text="12 hour" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DADADC" />
+
+            <!-- week start layout session -->
+
+            <RelativeLayout
+                android:id="@+id/week_start_layout"
+                android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                  android:background="@drawable/layout_view_selector"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:id="@+id/week_start_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="5dp"
+                    android:text="Week Start"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/week_start_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="5dp"
+                    android:drawableRight="@drawable/button_direction_right"
+                    android:gravity="center"
+                    android:text="Monday" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DADADC" />
+            <!-- week target steps layout session -->
+
+            <RelativeLayout
+                android:id="@+id/week_target_steps_layout"
+                android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:background="@drawable/layout_view_selector"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:id="@+id/week_target_steps_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="5dp"
+                    android:text="Week Target Steps"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/week_target_steps_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="5dp"
+                    android:drawableRight="@drawable/button_direction_right"
+                    android:gravity="center"
+                    android:text="85000" />
+            </RelativeLayout>
+        </LinearLayout>
+        
+        
+         <LinearLayout
+            android:id="@+id/developer_mode_setting_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/developer_mode_setting_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="Developer Mode Setting"
+                android:textSize="10dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/developer_mode_setting_title"
+                android:background="@color/underscore_view_background" />
+
+            <RelativeLayout
+                android:id="@+id/developer_mode_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:background="@drawable/layout_view_selector"
+                android:layout_marginTop="5dp"
+                 >
+
+                <TextView
+                    android:id="@+id/developer_mode_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="5dp"
+                    android:text="Developer Mode"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/developer_mode_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="5dp"
+                    android:drawableRight="@drawable/button_direction_right"
+                    android:gravity="center"
+                    android:text="true" />
+            </RelativeLayout>
+
+        </LinearLayout>
+        
+         
+         
+        <!-- user information setting layout -->
+        <LinearLayout
+            android:id="@+id/user_info_setting_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+         	android:visibility="gone"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/user_info_setting_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="User Information Setting"
+                android:textSize="10dp" />
+
+            <View
+                android:id="@+id/view9"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/underscore_view_background" />
+
+            <!-- user name session -->
+
+            <RelativeLayout
+                android:id="@+id/user_name_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:background="@drawable/layout_view_selector"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:id="@+id/user_name_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="5dp"
+                    android:text="Name"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/user_name_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="5dp"
+                    android:drawableRight="@drawable/button_direction_right"
+                    android:gravity="center"
+                    android:text="sky" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DADADC" />
+
+            <!-- gender layout session -->
+
+            <RelativeLayout
+                android:id="@+id/user_gender_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:background="@drawable/layout_view_selector"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:id="@+id/user_gender_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="5dp"
+                    android:text="Gender"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/user_gender_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="5dp"
+                    android:drawableRight="@drawable/button_direction_right"
+                    android:gravity="center"
+                    android:text="Female" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DADADC" />
+
+            <!-- user birthday layout session -->
+
+            <RelativeLayout
+                android:id="@+id/user_birthday_layout"
+                android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                  android:background="@drawable/layout_view_selector"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:id="@+id/user_birthday_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="5dp"
+                    android:text="Birthday"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/user_birthday_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="5dp"
+                    android:drawableRight="@drawable/button_direction_right"
+                    android:gravity="center"
+                    android:text="2015-06-05" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DADADC" />
+         
+            <!-- user height layout session -->
+
+            <RelativeLayout
+                android:id="@+id/user_height_layout"
+                android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:background="@drawable/layout_view_selector"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:id="@+id/user_height_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="5dp"
+                    android:text="Height"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/m_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="5dp"
+                    android:drawableRight="@drawable/button_direction_right"
+                    android:gravity="center"
+                    android:text="m" />
+                
+                <TextView
+                    android:id="@+id/user_height_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                  	android:layout_marginRight="6dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="5dp"
+                  	android:layout_toLeftOf="@+id/m_text_view"
+                    android:gravity="center"
+                    android:text="1.75" />
+                
+            </RelativeLayout>
+            
+             <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DADADC" />
+            
+            <!-- weight session -->
+            
+            <RelativeLayout
+                android:id="@+id/user_weight_layout"
+                android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:background="@drawable/layout_view_selector"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:id="@+id/user_weight_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="5dp"
+                    android:text="Weight"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/weight_kg_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="5dp"
+                    android:drawableRight="@drawable/button_direction_right"
+                    android:gravity="center"
+                    android:text="kg" />
+                
+                     <TextView
+                    android:id="@+id/user_weight_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                  	android:layout_marginRight="5dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="5dp"
+                	android:layout_toLeftOf="@+id/weight_kg_text_view"
+                    android:gravity="center"
+                    android:text="98" />
+                     
+            </RelativeLayout>
+            
+             <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DADADC" />
+             
+             <!-- athlete level session -->
+            
+            <RelativeLayout
+                android:id="@+id/athlete_level_layout"
+                android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:background="@drawable/layout_view_selector"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:id="@+id/athlete_level_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="5dp"
+                    android:text="Athlete Level"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/athlete_level_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="5dp"
+                    android:drawableRight="@drawable/button_direction_right"
+                    android:gravity="center"
+                    android:text="5" />
+            </RelativeLayout>
+            
+        </LinearLayout>
+        
+        
+        
+    </LinearLayout>
+
+</ScrollView>

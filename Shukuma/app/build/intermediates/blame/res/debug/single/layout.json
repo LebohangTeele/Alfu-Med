@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\layout\\number_selector_picker.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\layout\\number_selector_picker.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\layout\\capture.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\layout\\capture.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\layout\\actionbar_search_progress.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\layout\\actionbar_search_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_scan_barcode.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\layout\\fragment_scan_barcode.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_example.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\layout\\list_item_example.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\layout\\device_list_row.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\layout\\device_list_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_connect_device.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\layout\\fragment_connect_device.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_show_info.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\layout\\fragment_show_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\layout\\athlete_level_spinner_item.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\layout\\athlete_level_spinner_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_device_selection.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\layout\\fragment_device_selection.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_paired_device_list.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\layout\\fragment_paired_device_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_scan_results.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\layout\\fragment_scan_results.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\layout\\device_list_title.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\layout\\device_list_title.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_search_device.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\layout\\fragment_search_device.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\layout\\device_list_empty.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\layout\\device_list_empty.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\layout\\scan_list_item.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\layout\\scan_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_alarm_clock.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\layout\\fragment_alarm_clock.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_show_measure_data.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\layout\\activity_show_measure_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_user_details.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\layout\\fragment_user_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\layout\\device_list_view_item.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\layout\\device_list_view_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\layout\\drawer_list_item.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\layout\\drawer_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ptr_header.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\layout\\ptr_header.xml"
+    }
+]

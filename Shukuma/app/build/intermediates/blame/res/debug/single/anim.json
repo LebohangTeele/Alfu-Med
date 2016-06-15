@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_right.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\anim\\slide_out_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\anim\\hyperspace_in.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\anim\\hyperspace_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\anim\\shake.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\anim\\shake.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\anim\\cycle_7.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\anim\\cycle_7.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_left.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\anim\\slide_in_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\anim\\dync_out_to_left.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\anim\\dync_out_to_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\anim\\zoom_enter.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\anim\\zoom_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\anim\\to_middle.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\anim\\to_middle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_right.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\anim\\slide_in_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\anim\\enter_anim.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\anim\\enter_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\anim\\from_middle.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\anim\\from_middle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\anim\\zoom_exit.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\anim\\zoom_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\anim\\exit_anim.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\anim\\exit_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\anim\\hyperspace_out.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\anim\\hyperspace_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\build\\intermediates\\res\\merged\\debug\\anim\\dync_in_from_right.xml",
+        "source": "C:\\Users\\Majahakangwane\\Desktop\\Shukuma\\app\\src\\main\\res\\anim\\dync_in_from_right.xml"
+    }
+]

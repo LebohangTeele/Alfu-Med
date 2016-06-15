@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <stroke
+        android:width="1dip"   
+        android:color="#A4C2E0" />
+    <!-- old solid color="#A4C2E0" -->
+    <solid 
+        android:color="@color/button_normal_background"
+        android:paddingLeft="10dip"
+        android:paddingTop="10dip"/>
+
+    <corners
+        android:radius="10px"/>
+</shape>

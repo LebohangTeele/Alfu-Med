@@ -1,0 +1,132 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/item_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <RelativeLayout
+            android:id="@+id/device_image_layout"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            >
+            
+             <ImageView
+                 android:id="@+id/device_image_view"
+                 android:layout_width="48dp"
+                 android:layout_height="48dp"
+                 android:layout_marginTop="5dp"
+                 android:layout_alignParentLeft="true"
+                 android:scaleType="fitCenter"
+                 android:src="@drawable/kitchen_scale" />
+
+            <TextView
+                android:id="@+id/protocol_type_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/device_image_view"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="kitchen"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/device_info_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+           >
+
+            <TextView
+                android:id="@+id/device_name_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center_vertical"
+                android:text="Device:405A034C64A0A"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/user_number_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/device_name_text_view"
+                android:ellipsize="marquee"
+                android:singleLine="true"
+                android:text="UserNumber:"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/connect_status_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/user_number_text_view"
+                android:layout_marginTop="15dp"
+                android:ellipsize="marquee"
+                android:singleLine="true"
+                android:text="Not in range"
+                android:textSize="12sp" />
+            
+            
+            <TextView
+                android:id="@+id/record_number_text_view"
+                style="@style/RelativeLayoutStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+             
+                android:layout_alignParentRight="true"
+                android:padding="15dp"
+                android:text="No Record"
+                android:textSize="12sp" />
+             
+        </RelativeLayout>
+
+       
+        
+    </LinearLayout>
+    
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#DADADC" >
+        </View>
+   
+	
+    <com.lifesense.ble.ui.view.paireddevice.ShowMeasuredRecordLayout
+        android:id="@+id/expanding_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:visibility="gone" >
+        
+        <!-- @color/headerBackgroundColor -->
+        <TextView
+            android:id="@+id/show_record_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#CD853F"
+            android:paddingBottom="20dp"
+            android:paddingLeft="5dp"
+            android:textColor="#ffffffff"
+            android:textSize="16sp"
+             />
+       
+    </com.lifesense.ble.ui.view.paireddevice.ShowMeasuredRecordLayout>
+
+    
+
+</LinearLayout>

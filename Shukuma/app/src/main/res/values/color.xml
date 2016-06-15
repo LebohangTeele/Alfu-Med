@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <!-- 二维码需要颜色 -->
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_points">#c099cc00</color>
+ <!-- Android standard ICS color -->
+    <color name="viewfinder_laser">#ffcc0000</color>
+ <!-- Android standard ICS color -->
+    <color name="headerBackgroundColor">#009ada</color>
+
+    
+    <color name="app_overall_style_background">#F0F8FF</color>
+    <color name="edit_input_normal_background">#DCDCDC</color>
+    <!--old underscore_view_background= #FF8000 -->
+    <color name="underscore_view_background">#CD853F</color>
+    <color name="button_normal_background">#ffffffff</color>
+</resources>
